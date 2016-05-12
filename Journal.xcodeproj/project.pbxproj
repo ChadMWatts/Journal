@@ -74,6 +74,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CEC6E9B1CE517B1000514CA /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4C586C461CE3DF23000A4E32 /* Entry.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		4CEC6E9C1CE517DB000514CA /* model controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C586C481CE3E0D0000A4E32 /* EntryController.swift */,
+			);
+			name = "model controller";
+			sourceTree = "<group>";
+		};
+		4CEC6E9D1CE517F5000514CA /* view Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C586C4A1CE3E5EC000A4E32 /* EntryListTableViewController.swift */,
+				4C586C4C1CE3E8FA000A4E32 /* EntryDetailViewController.swift */,
+			);
+			name = "view Controller";
+			sourceTree = "<group>";
+		};
 		68816ABB1BBB5405000569CE = {
 			isa = PBXGroup;
 			children = (
@@ -96,10 +121,9 @@
 			isa = PBXGroup;
 			children = (
 				68816AC71BBB5405000569CE /* AppDelegate.swift */,
-				4C586C461CE3DF23000A4E32 /* Entry.swift */,
-				4C586C481CE3E0D0000A4E32 /* EntryController.swift */,
-				4C586C4A1CE3E5EC000A4E32 /* EntryListTableViewController.swift */,
-				4C586C4C1CE3E8FA000A4E32 /* EntryDetailViewController.swift */,
+				4CEC6E9B1CE517B1000514CA /* model */,
+				4CEC6E9C1CE517DB000514CA /* model controller */,
+				4CEC6E9D1CE517F5000514CA /* view Controller */,
 				68816ACB1BBB5405000569CE /* Main.storyboard */,
 				68816ACE1BBB5405000569CE /* Assets.xcassets */,
 				68816AD01BBB5405000569CE /* LaunchScreen.storyboard */,
