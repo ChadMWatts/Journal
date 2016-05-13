@@ -50,3 +50,4 @@ func ==(lhs: Entry, rhs: Entry) -> Bool {
     return lhs.timeStamp == rhs.timeStamp && lhs.title == rhs.title && lhs.bodyText == rhs.bodyText
     
 }
+
